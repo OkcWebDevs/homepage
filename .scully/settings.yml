@@ -1,0 +1,12 @@
+identifier: k9y4kam2t9rda4q9
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: okcwebdevs-site
+homeFolder: C:\Users\Waffles\Desktop\VINDEV\OkcWebDevs\okcwebdevs-website\homepage
+distFolder: dist/okcwebdevs-site
+outDir: >-
+  C:\Users\Waffles\Desktop\VINDEV\OkcWebDevs\okcwebdevs-website\homepage\dist\static
+handle404: ''
+allowErrorCollect: false
