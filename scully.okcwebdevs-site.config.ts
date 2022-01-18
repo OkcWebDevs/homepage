@@ -7,6 +7,6 @@ export const config: ScullyConfig = {
   projectRoot: './src',
   projectName: 'okcwebdevs-site',
   outDir: './dist/static',
-  puppeteerLaunchOptions: { headless: true },
+  puppeteerLaunchOptions: { headless: true, args: ['--no-sandbox'] },
   routes: {},
 };

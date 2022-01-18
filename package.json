@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully --",
-    "scully:serve": "npx scully serve --",
+    "scully:serve": "npx scully serve -- --browsers=CustomChromeHeadless",
     "heroku-postbuild": "ng build && npm run scully"
   },
   "private": true,
