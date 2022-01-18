@@ -29,8 +29,11 @@
     }
 
     > .logo-summary {
-      font-size: 18px;
+      font-size: 21px;
       margin: 0px 17% 25px 17%;
+      font-family: sans-serif;
+      line-height: 1.5;
+      text-align: justify;
     }
   }
 
@@ -55,13 +58,40 @@
       display: flex;
       flex-direction: row;
 
-      > .okc-link {
-        min-width: 50px;
-        min-height: 50px;
-        margin: 25px 26px;
-        cursor: pointer;
-        color: rgb(63, 63, 63)
+      & a {
+        > .okc-link {
+          min-width: 50px;
+          min-height: 50px;
+          margin: 25px 26px;
+          cursor: pointer;
+          color: rgb(63, 63, 63);
+        }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .logo {
+    width: 335px !important;
+  }
+
+  .logo-summary {
+    font-size: 18px !important;
+    margin: 0px 25px 25px 25px !important;
+  }
+
+  .separator {
+    width: calc(100% - 100px) !important;
+  }
+
+  .okc-link {
+    min-width: 39px !important;
+    min-height: 39px !important;
+    margin: 25px 21px !important;
+  }
+
+  .world-bg {
+    opacity: 0 !important;
   }
 }
