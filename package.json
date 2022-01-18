@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "ng serve --source-map=true --prod=false --watch=true --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -24,6 +24,7 @@
     "@scullyio/ng-lib": "^2.0.0",
     "@scullyio/scully": "^2.0.0",
     "@scullyio/scully-plugin-puppeteer": "^2.0.0",
+    "bootstrap-icons": "^1.7.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
