@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --source-map=true --prod=false --watch=true --open",
+    "start": "node server.js",
+    "start:dev": "ng serve --source-map=true --prod=false --watch=true --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
