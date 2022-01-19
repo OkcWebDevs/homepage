@@ -10,7 +10,7 @@
     "test": "ng test",
     "scully": "npx scully --",
     "scully:serve": "npx scully serve -- --browsers=CustomChromeHeadless",
-    "heroku-postbuild": "ng build && npm run scully"
+    "heroku-postbuild": "npm run build && npm run scully"
   },
   "private": true,
   "dependencies": {
