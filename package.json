@@ -10,13 +10,15 @@
     "test": "ng test",
     "scully": "npx scully --",
     "scully:serve": "npx scully serve -- --browsers=CustomChromeHeadless",
-    "heroku-postbuild": "npm install -g @angular/cli@latest && npm install --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "npm install --no-shrinkwrap && npm run build"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
     "@angular/platform-browser": "^17.0.0",
@@ -28,8 +30,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.0.0",
-    "@angular/cli": "^17.0.0",
-    "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^12.11.1",
     "autoprefixer": "^10.4.16",
