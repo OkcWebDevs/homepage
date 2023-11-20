@@ -9,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully --",
-    "scully:serve": "npx scully serve -- --browsers=CustomChromeHeadless"
+    "scully:serve": "npx scully serve -- --browsers=CustomChromeHeadless",
+    "heroku-postbuild": "npm install --no-shrinkwrap && npm run build"
   },
   "private": true,
   "dependencies": {
